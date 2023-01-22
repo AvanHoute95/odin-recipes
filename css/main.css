@@ -47,15 +47,12 @@
   text-decoration: underline;
 }
 
-.list-text {
+.list-text,
+.directions-text {
   font-size: 20px;
 }
 
 .directions-title {
   font-size: 30px;
   text-decoration: underline;
-}
-
-.directions-text {
-  font-size: 20px;
 }
