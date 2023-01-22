@@ -17,11 +17,11 @@
 }
 
 .recipes {
+  position: relative;
   font-size: 36px;
   padding-left: 41%;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
   display: inline-block;
 }
 
@@ -47,7 +47,15 @@
   text-decoration: underline;
 }
 
+.list-text {
+  font-size: 20px;
+}
+
 .directions-title {
   font-size: 30px;
   text-decoration: underline;
+}
+
+.directions-text {
+  font-size: 20px;
 }
