@@ -3,33 +3,44 @@
 }
 
 .Title {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
   font-size: 60px;
 }
 
 .Title-image {
-  display: block;
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
-  height: 350px;
+  border-radius: 15px;
+  height: 300px;
   width: auto;
+  box-shadow: 0px 0px 21px black;
 }
 
-.recipes {
-  position: relative;
+.recipe-container {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recipe {
   font-size: 36px;
-  padding-left: 41%;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
 }
 
 .Recipes-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
   font-size: 40px;
-  margin-bottom: -30px;
   text-decoration: underline;
-  text-align: center;
 }
 
 .description-title {
@@ -38,21 +49,17 @@
 }
 
 .description {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: -10px;
 }
 
-.ingredients-title {
-  font-size: 30px;
+.ingredients-title,
+.directions-title {
+  font-size: 40px;
   text-decoration: underline;
 }
 
 .list-text,
 .directions-text {
   font-size: 20px;
-}
-
-.directions-title {
-  font-size: 30px;
-  text-decoration: underline;
 }
